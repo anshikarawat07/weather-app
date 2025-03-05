@@ -26,5 +26,6 @@ A simple weather application that fetches real-time weather data using the OpenW
    
 3. **Run the App**:  
    - Open `index.html` in a browser.  
+![image](https://github.com/user-attachments/assets/68656b8b-5564-4bba-9174-8797e9707be7)
 
 ![image](https://github.com/user-attachments/assets/fab9eabb-338e-4298-948f-ea74be95f16c)
