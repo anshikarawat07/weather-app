@@ -1,44 +1,30 @@
-# 🌤 Weather App
+### **Weather App 🌦️**  
 
-A simple weather application that fetches real-time weather data using the **OpenWeather API**. Users can search for any city and get current temperature, weather conditions, and high/low temperatures.
+A simple weather application that fetches real-time weather data using the OpenWeatherMap API.  
 
-## 🚀 Features
-- 🌍 Search for any city to get live weather updates.
-- 📅 Displays the current date dynamically.
-- 🌡 Shows temperature, weather conditions, and high/low temperature.
-- 🎨 Modern UI with background image and responsive design.
+## **Features**  
+✅ Search for weather by city name  
+✅ Displays temperature, humidity, and weather conditions  
+✅ Fetches weather icons dynamically  
+✅ Responsive design with a clean UI  
 
-## 📷 Preview
+## **Technologies Used**  
+- **HTML**  
+- **CSS**  
+- **JavaScript**  
+- **OpenWeatherMap API**  
 
-![image](https://github.com/user-attachments/assets/4d8eb068-f057-46c2-b3c0-091eb7565d47)
+## **Setup & Usage**  
+1. **Get an API Key**:  
+   - Sign up at [OpenWeatherMap](https://openweathermap.org/api) and get a free API key.  
 
-## 🛠️ Technologies Used
-- **HTML** – Structure of the app.
-- **CSS** – Styling and layout.
-- **JavaScript** – Fetching and displaying weather data using OpenWeather API.
+2. **Replace API Key**:  
+   - Open `script.js` and replace:  
+     ```javascript
+     const API_KEY = "5878e469c456fd5a2afa28b50f3719c1";
+     ```
+   
+3. **Run the App**:  
+   - Open `index.html` in a browser.  
 
-## 🔧 Setup & Usage
-1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/yourusername/weather-app.git
-   cd weather-app
-   ```
-2. **Open `index.html`** in a browser.
-
-3. **API Key**  
-   The app is already configured with the API key:
-   ```js
-   const api = {
-     key: "fcc8de7015bbb202209bbf0261babf4c",
-     base: "https://api.openweathermap.org/data/2.5/"
-   }
-   ```
-
-
-## 📌 Future Improvements
-- 🌍 Add automatic location-based weather detection.
-- 🌦 Include weather icons for better visualization.
-- 📱 Improve mobile responsiveness.
-
-
-
+![image](https://github.com/user-attachments/assets/fab9eabb-338e-4298-948f-ea74be95f16c)
